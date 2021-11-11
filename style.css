@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#name{
+    align-self: flex-start;
+color: aliceblue;
+font-size: 30px;
+padding-top: 25px;
+padding-right: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+}
+.parent{
+   
+    border: 5px solid yellow;
+    border-radius: 5px;
+    width: 40vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    top: 1px;
+}
+#image{
+    display: right;
+    animation: ease-in-out;
+
+}
+#title{
+    color: white ;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    /*padding-top: 25px;*/
+}
+i{
+    text-align: left;
+}
+#l_name{
+
+    color: aliceblue;
+    align-self: flex-start;
+    white-space: pre-wrap;
+
+    font-size: 30px;
+padding-top: 25px;
+
+}
+#nam{
+    padding-top: 20px;
+    color: aliceblue;
+    align-self: flex-start;
+    display: list-item;
+    white-space: pre-wrap;
+    font-family: cursive;
+    font-size: 30px;
+    
+}
+#email{
+    
+    color: aliceblue;
+    font-size: 30px;
+    display: list-item;
+
+    
+    
+
+}
+#em{
+    color: aliceblue;
+    position: fixed;
+    padding-right: 100px;
+}
+#button{
+    align-items: center;
+    justify-content: center;
+    align-self: end;
+    margin: unset;
+    position: absolute;
+    display: inline-block;
+    background-color: black;
+    border-radius: 280px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 25px;
+    padding: 6px;
+    width: 153px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 98px;
+}
+#button:hover {
+    background-color:dimgray
+  }
+#tit{
+    padding-top: 5px;
+
+}
+#bt{
+    color: floralwhite;
+    padding-left: 50px
+}
